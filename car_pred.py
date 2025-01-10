@@ -9,7 +9,7 @@ with open('car_pred_model', 'rb') as f:
     model = pickle.load(f)
 
 
-cars_df = pd.read_csv("C:/Users/chven/OneDrive/Documents/cars24-car-price.csv")
+cars_df = pd.read_csv("./cars24-car-price.csv")
 
 st.title("Cars resale price pred!")
 st.header("Powered by ch.venkatesh",divider="rainbow")
